@@ -1,0 +1,67 @@
+/* Universal Styling */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Navigation Styles */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+/* Link Styles */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: #e49c00;
+  transition: color 0.3s ease;
+}
+
+/* Logo Styles */
+#logo h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
+/* Icon Styles */
+.icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.icons span {
+  cursor: pointer;
+}
+
+/* Hero Section Styles */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./img/hero.jpg");
+  background-size: cover;
+  background-position: center center;
+}
