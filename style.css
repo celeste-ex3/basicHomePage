@@ -98,3 +98,78 @@ nav ul li a:hover {
   background-color: #ca7495;
   transition: background-color 0.3s ease;
 }
+
+/* Social Section Styles */
+.container {
+  width: 100%;
+  background-color: #b04560;
+  padding: 2rem;
+}
+
+.container p {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.container > h1 {
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.social-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 0;
+  margin-bottom: 2rem;
+}
+
+.social {
+  background-color: #ca7495;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 2rem;
+  text-align: justify;
+  border-radius: 10px;
+  height: 380px;
+  width: 280px;
+  flex-direction: column;
+}
+
+.social-icons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.social-icons img {
+  width: 50px;
+}
+
+.social h1 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.social button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #b04560;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.social button:hover {
+  background-color: #d499ae;
+  transition: background-color 0.3s ease;
+}
