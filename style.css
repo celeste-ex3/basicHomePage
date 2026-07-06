@@ -105,6 +105,11 @@ nav ul li a:hover {
   padding: 2rem;
 }
 
+.container p {
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
 .container > h1 {
   color: #ffffff;
   font-size: 2rem;
@@ -148,6 +153,7 @@ nav ul li a:hover {
 .social h1 {
   font-size: 1.5rem;
   text-transform: uppercase;
+  color: #000;
 }
 
 .social button {
@@ -165,4 +171,66 @@ nav ul li a:hover {
 .social button:hover {
   background-color: #ca7495;
   transition: background-color 0.3s ease;
+}
+
+/* Youtube Custom Styling */
+.youtube {
+  background-color: antiquewhite;
+}
+
+.youtube button {
+  color: #fff;
+  background-color: #000;
+}
+.youtube button:hover {
+  background-color: #5e5e5e;
+  color: #fff;
+}
+
+/* Footer styling */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #202020;
+  gap: 2rem;
+  padding: 3rem 1rem;
+  width: 100%;
+}
+
+.socialFooter {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+footer img {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+  color: #c8baa0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #ca7495;
+  transition: color 0.3s ease;
+}
+
+footer > p {
+  color: #c8baa0;
 }
